@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title> My Video </title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles3.css">
+	
+	<style> 
+		body {
+			background-image: url("pictures/bg9.jpg");
+			background-repeat: no-repeat; 
+			background-size: cover; 
+			background-position: center;
+		}
+		
+		header {
+			background-color: #fdf5e6;
+			text-align: center;
+			padding: 20px 0;
+		}
+		
+		.card-container {
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+		}
+		
+		.card{
+			background-image: url("pictures/background.jpeg");
+			width: 300px;
+			height: 200px
+			border: 1px solid #ccc;
+			border-radius: 8px;
+			padding: 16px;
+			text-align: center;
+			box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+			background-color: pink
+		}
+	</style>
+</head>
+	
+<body>
+	
+<nav class="navbar"> 
+		<ul> <li><a href="index.html">Home</a></li> 
+			<li><a href="My Biodata.html">Biodata</a></li> 
+			<li><a href="My Portfolio.html">Portfolio</a></li>
+			<li><a href="My Video.html">Video</a></li> 
+			<li><a href="Your Comments.html">Comment</a></li> 
+		</ul> </nav>
+	
+		<h1><center> My Video </center></h1>
+		<p> </p>
+	
+	<div class="card-container">
+                <div class="card">
+                    <video width="240" controls> <source src="videos/Drawing Timelapse.mp4" type="video/mp4"></video>
+					<p> Drawing Process </p>
+                    
+                </div>
+		
+                <div class="card">
+                    <video width="300" controls> <source src="videos/Hari Belia.mp4" type="video/mp4"></video>
+					<p> Hari Belia Negara Peringkat Labuan Show </p>
+                
+                </div>	
+</body>
+</html>
